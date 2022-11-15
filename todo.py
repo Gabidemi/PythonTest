@@ -7,7 +7,7 @@ todolist.append(x)
 print(todolist)
 
 
-while x = x:
+while x == x:
     x = input("what else?")
 
     todolist.append(x)
