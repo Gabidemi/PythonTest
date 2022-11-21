@@ -1,9 +1,9 @@
-# # x = "Asta"
+x = "Asta"
 
 
-# # while x != "stop":
-# #      print("hello world")
-# #      x = input("Type stop to exit")
+while x != "stop":
+     print("hello world")
+     x = input("Type stop to exit")
 
 
 # # y = 1
@@ -18,5 +18,5 @@
 # for x in list:
 #     print(x)
 
-for i in range(1,11):
-    print(i)
+# for i in range(1,11):
+#     print(i)
