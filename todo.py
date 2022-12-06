@@ -1,4 +1,4 @@
-
+my_file = open("ayo2.txt", "w+")
 todolist = []
 
 x = input("What do you want to add to list?")
@@ -13,3 +13,13 @@ while x == x:
     todolist.append(x)
 
     print(todolist)
+
+    my_file.write(todolist)
+
+    my_file.close()
+
+    my_file = open("ayo2.txt")
+
+    for line in my_file.readlines():
+        print(line, end="")
+
