@@ -1,24 +1,19 @@
-my_file = open("ayo2.txt", "w+")
-todolist = []
+print()
 
-x = input("What do you want to add to list?")
-todolist.append(x)
+while True:
+    x = input("What do you want to do? ")
 
-print(todolist)
+    my_file = open("ayo2.txt", "a")
+    
+    print()
 
-
-while x == x:
-    x = input("what else?")
-
-    todolist.append(x)
-
-    print(todolist)
-
-    my_file.write(todolist)
+    my_file.write(x +'\n')
 
     my_file.close()
 
     my_file = open("ayo2.txt")
+
+    
 
     for line in my_file.readlines():
         print(line, end="")
